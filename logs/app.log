@@ -1,0 +1,31 @@
+2024-05-24T16:01:55.633-03:00  INFO 29612 --- [Notas] [main] com.domain.Notas.NotasApplication        : Starting NotasApplication using Java 17.0.6 with PID 29612 (C:\Users\colaborador\Desktop\Notas\target\classes started by colaborador in C:\Users\colaborador\Desktop\Notas)
+2024-05-24T16:01:55.638-03:00 DEBUG 29612 --- [Notas] [main] com.domain.Notas.NotasApplication        : Running with Spring Boot v3.3.0, Spring v6.1.8
+2024-05-24T16:01:55.640-03:00  INFO 29612 --- [Notas] [main] com.domain.Notas.NotasApplication        : No active profile set, falling back to 1 default profile: "default"
+2024-05-24T16:01:57.231-03:00  INFO 29612 --- [Notas] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-24T16:01:57.329-03:00  INFO 29612 --- [Notas] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interface.
+2024-05-24T16:01:58.300-03:00  INFO 29612 --- [Notas] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-05-24T16:01:58.318-03:00  INFO 29612 --- [Notas] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-24T16:01:58.319-03:00  INFO 29612 --- [Notas] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-05-24T16:01:58.453-03:00  INFO 29612 --- [Notas] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-24T16:01:58.454-03:00  INFO 29612 --- [Notas] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2640 ms
+2024-05-24T16:01:58.736-03:00  INFO 29612 --- [Notas] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-24T16:01:58.836-03:00  INFO 29612 --- [Notas] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-05-24T16:01:58.896-03:00  INFO 29612 --- [Notas] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-24T16:01:59.339-03:00  INFO 29612 --- [Notas] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-24T16:01:59.378-03:00  INFO 29612 --- [Notas] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-24T16:01:59.874-03:00  INFO 29612 --- [Notas] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45796b2a
+2024-05-24T16:01:59.876-03:00  INFO 29612 --- [Notas] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-24T16:02:00.890-03:00  INFO 29612 --- [Notas] [main] o.h.m.i.EntityInstantiatorPojoStandard   : HHH000182: No default (no-argument) constructor for class: com.domain.Notas.model.NotaModel (class must be instantiated by Interceptor)
+2024-05-24T16:02:01.122-03:00  INFO 29612 --- [Notas] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-24T16:02:01.215-03:00  INFO 29612 --- [Notas] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-24T16:02:01.627-03:00  WARN 29612 --- [Notas] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-24T16:02:02.278-03:00  INFO 29612 --- [Notas] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-05-24T16:02:02.291-03:00  INFO 29612 --- [Notas] [main] com.domain.Notas.NotasApplication        : Started NotasApplication in 7.465 seconds (process running for 8.194)
+2024-05-24T16:03:07.738-03:00  INFO 29612 --- [Notas] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-24T16:03:07.739-03:00  INFO 29612 --- [Notas] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-24T16:03:07.740-03:00  INFO 29612 --- [Notas] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-05-24T16:03:07.793-03:00 DEBUG 29612 --- [Notas] [http-nio-8080-exec-3] c.d.Notas.controller.NotaController      : Exibindo lista de notas
+2024-05-24T16:03:07.793-03:00 DEBUG 29612 --- [Notas] [http-nio-8080-exec-3] c.d.Notas.controller.NotaController      : Buscando todas as notas
+2024-05-24T16:03:21.579-03:00  INFO 29612 --- [Notas] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-24T16:03:21.581-03:00  INFO 29612 --- [Notas] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-24T16:03:21.591-03:00  INFO 29612 --- [Notas] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
