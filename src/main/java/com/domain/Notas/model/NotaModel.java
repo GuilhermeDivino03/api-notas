@@ -14,12 +14,6 @@ public class NotaModel {
     private String conteudo;
 
 
-    public NotaModel(Long id, String titulo, String conteudo) {
-        this.id = id;
-        this.titulo = titulo;
-        this.conteudo = conteudo;
-    }
-
     public Long getId() {
         return id;
     }
